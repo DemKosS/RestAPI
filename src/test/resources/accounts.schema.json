@@ -5,10 +5,6 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "properties": {
-      "number": { "type": "number" },
-      "course_name": { "type": "string" },
-      "course_type": { "enum": ["RUB", "USD"] },
     "required": [
       "id",
       "name",
